@@ -1,0 +1,18 @@
+
+//Letter
+@mixin letter($fz: $fz-smallest, $fw: $fw-small, $lh: $lh-small, $c: $c-dark-grayish-blue) {
+    
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh;
+    color: $c;
+
+}
+
+//Transition
+@mixin trs {
+    
+    transition: $trs;
+
+}

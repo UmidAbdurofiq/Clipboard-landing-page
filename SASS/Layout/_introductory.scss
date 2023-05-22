@@ -1,0 +1,29 @@
+
+.introductory {
+
+    background-image: url(/IMG/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: $p-introductory;
+
+    &__logo {
+
+        margin-bottom: $mb-introductory-logo;
+
+    }
+
+    &__header {
+
+        margin-bottom: $mb-introductory-header;
+        @include letter($fz: $fz-introductory-header, $fw: $fw-big)
+
+    }
+
+    &__text {
+
+        margin-bottom: $mb-biggest;
+        @include letter($fz: $fz-intermediate, $lh: $lh-introductory-text, $c: $c-grayish-blue)
+
+    }
+
+}

@@ -1,0 +1,87 @@
+
+//THESE VARIABLES USE THE EMMET ABBREVIATION NAMING
+
+//Size
+$w-hero-describing-fb: 1195px;
+$w-hero-features: 404px;
+$w-hero-tools-fb: 1096px;
+$w-hero-trusted: 1110px;
+$w-footer: 100%;
+$w-footer-logo: 55px;
+$w-footer-sm-links: 120px;
+
+$w: 227px;
+
+$h: 63px;
+
+//Border
+$bdrs: 36px;
+
+//Padding
+$p-introductory: 128px 0 153px 0;
+$p-hero-download: 160px 0 148px 0;
+$p-footer: 44px 0 42px 164px;
+
+$p: 18px 0 16px 0;
+
+//Margin
+$m-hero-tools-fb: 80px auto 158px auto;
+$m-hero-trusted: 0 auto 0 auto;
+
+$ml-footer-fb-first: 135px;
+$ml-footer-fb-second: 97px;
+$ml-footer-link: 72px;
+$ml-footer-sm-links: 316px;
+$ml-btn-mac: 12px;
+
+$mb-introductory-logo: 55px;
+$mb-introductory-header: 18px;
+$mb-hero-describing: 152px;
+$mb-hero-describing-container: 80px;
+$mb-hero-features-header: 9px;
+$mb-hero-accessibility: 69px;
+$mb-hero-accessibility-text: 99px;
+$mb-hero-tools-container-header: 27px;
+$mb-hero-tools-icon: 37px;
+
+$mb-smallest: 17px;
+$mb-small: 21px;
+$mb-big: 45px;
+$mb-biggest: 48px;
+
+//Transform
+$trfty-hero-describing-fb: translateX(-32px);
+$trfty-hero-features: translateY(70px);
+
+//Transition
+$trs: all .5s;
+
+//Letter
+$fz-introductory-header: 2.75rem;
+
+$fz-smallest: 1rem;
+$fz-small: 1.125rem;
+$fz-intermediate: 1.25rem;
+$fz-big: 1.4375rem;
+$fz-biggest: 2.1875rem;
+
+$fw-small: 400;
+$fw-big: 600;
+
+$lh-introductory-text: 1.5;
+
+$lh-small: normal;
+$lh-intermediate: 1.65;
+$lh-big: 1.9;
+
+//Color
+$c-strong-cyan: #26baa4;
+$c-light-blue: #6173ff;
+$c-dark-grayish-blue: #4c545d;
+$c-grayish-blue: #9fabb2;
+$c-white: #fff;
+
+$bgc-footer: #f1f4f7;
+
+$bgc-btn-ios--hover: rgba(#26baa4, .8);
+$bgc-btn-mac--hover: rgba(#6173ff, .8);

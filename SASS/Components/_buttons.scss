@@ -1,0 +1,37 @@
+
+.btn-ios {
+    
+    width: $w;
+    padding: $p;
+    border-radius: $bdrs;
+    background-color: $c-strong-cyan;
+    @include letter($fz: $fz-intermediate, $c: $c-white);
+    @include trs;
+    
+    &:hover {
+        
+        cursor: pointer;
+        background-color: $bgc-btn-ios--hover;
+        
+    }
+    
+}
+
+.btn-mac {
+    
+    width: $w;
+    padding: $p;
+    border-radius: $bdrs;
+    margin-left: $ml-btn-mac;
+    background-color: $c-light-blue;
+    @include letter($fz: $fz-intermediate, $c: $c-white);
+    @include trs;
+    
+    &:hover {
+        
+        cursor: pointer;
+        background-color: $bgc-btn-mac--hover;
+        
+    }
+    
+}

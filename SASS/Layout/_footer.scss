@@ -1,0 +1,121 @@
+
+.footer {
+    
+    display: flex;
+    align-items: center;
+    width: $w-footer;
+    padding: $p-footer;
+    background-color: $bgc-footer;
+    
+    &__fb {
+        
+        display: flex;
+        align-items: flex-start;
+        @include letter($fz: $fz-small);
+        
+        
+        &__logo {
+            
+            width: $w-footer-logo;
+            
+        }
+        
+        &__fb-first {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: $h;
+            margin-left: $ml-footer-fb-first;
+            
+            &__links {
+                
+                color: $c-dark-grayish-blue;
+                @include trs;
+                
+                &:hover {
+                    
+                    cursor: pointer;
+                    color: $c-strong-cyan;
+                    
+                }
+                
+            }
+            
+        }
+        
+        &__fb-second  {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: $h;
+            margin-left: $ml-footer-fb-second;
+            
+            &__links {
+                
+                color: $c-dark-grayish-blue;
+                @include trs;
+                
+                &:hover {
+                    
+                    cursor: pointer;
+                    color: $c-strong-cyan;
+                    
+                }
+                
+            }
+            
+        }
+        
+        &__link {
+            
+            margin-left: $ml-footer-link;
+            color: $c-dark-grayish-blue;
+            @include trs;
+            
+            &:hover {
+                
+                cursor: pointer;
+                color: $c-strong-cyan;
+                
+            }
+            
+        }
+        
+    }
+    
+    &__sm-links {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: $w-footer-sm-links;
+        margin-left: $ml-footer-sm-links;
+        
+        &__blocks {
+            
+            display: block;
+            
+            &__icon {
+                
+                display: block;
+                color: $c-dark-grayish-blue;
+                @include trs;
+                
+                &:hover {
+                    
+                    cursor: pointer;
+                    color: $c-strong-cyan;
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
+    
+}
